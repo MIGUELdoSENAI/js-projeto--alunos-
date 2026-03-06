@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="pt-br" class="light">
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Miguel Dev | Web & IA</title>
+  <meta name="description" content="Portfólio de Miguel, 17 anos, dev em desenvolvimento focado em desenvolvimento web, automações e projetos com IA." />
+  <link rel="icon" type="image/x-icon" href="./img/principal.jpg" />
+  <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;300;400;600;700;800;900&family=Lato:wght@100;300;400;700;900&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <header>
+    <nav>
+      <a href="#home" class="logo">
+        <span>Miguel</span>Dev
+      </a>
+
+      <ul class="navlist">
+        <li><a href="#home" class="active">Início</a></li>
+        <li><a href="#about">Sobre</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projetos</a></li>
+        <li><a href="#contact">Contato</a></li>
+      </ul>
+
+      <div class="nav-actions">
+        <div id="switch" onclick="toggleMode()" aria-label="Alternar tema">
+          <button type="button" aria-label="Trocar tema"></button>
+          <span></span>
+        </div>
+
+        <a href="https://www.linkedin.com" target="_blank" aria-label="LinkedIn">
+          <i class='bx bxl-linkedin-square'></i>
+        </a>
+
+        <a href="https://github.com" target="_blank" aria-label="GitHub">
+          <i class='bx bxl-github'></i>
+        </a>
+
+        <i class='bx bx-menu' id="menu-icon"></i>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+
+    <!-- HOME -->
+    <section id="home" class="home">
+      <div class="home-text">
+        <p class="eyebrow">meu nome é</p>
+        <h1 id="name">Miguel</h1>
+        <h2>Dev em desenvolvimento</h2>
+        <h3>Focado em <span>linguagens, web, automações e IA</span></h3>
+        <p class="home-description">
+          Tenho 17 anos e estou construindo projetos para evoluir como desenvolvedor,
+          explorando front-end, back-end e soluções com inteligência artificial.
+        </p>
+        <div class="home-buttons">
+          <a href="#projects" class="btn primary">Ver projetos</a>
+          <a href="#contact" class="btn secondary">Falar comigo</a>
+        </div>
+        <div class="mini-info">
+          <span>JavaScript</span>
+          <span>Python</span>
+          <span>IA</span>
+          <span>Web</span>
+        </div>
+      </div>
+
+      <div class="home-image">
+        <img src="./img/principal.jpg" alt="Miguel desenvolvendo projetos web e IA" loading="lazy" />
+      </div>
+    </section>
+
+    <!-- SOBRE -->
+    <section id="about" class="about">
+      <div class="about-image">
+        <img src="./img/eu.jpg" alt="Foto de Miguel" loading="lazy" />
+      </div>
+
+      <div class="about-content">
+        <p class="section-tag">Sobre mim</p>
+        <h2>Construindo minha base como dev com foco em evolução constante</h2>
+        <p>Tenho 17 anos e estou me desenvolvendo na programação com foco em criar sites, interfaces e projetos que também utilizam inteligência artificial.</p>
+        <p>Curto estudar linguagens como JavaScript e Python, testar APIs, automatizar tarefas e transformar ideias em projetos práticos.</p>
+        <p>Meu objetivo é continuar evoluindo como desenvolvedor, ganhar experiência real e construir soluções modernas, úteis e bem apresentadas.</p>
+
+        <div class="about-cards">
+          <article class="info-card">
+            <strong>Idade</strong>
+            <span>17 anos</span>
+          </article>
+          <article class="info-card">
+            <strong>Foco</strong>
+            <span>Web + IA</span>
+          </article>
+          <article class="info-card">
+            <strong>Nível</strong>
+            <span>Em desenvolvimento</span>
+          </article>
+        </div>
+
+        <a href="./assets/curriculo-front-end.pdf" download="CV - Miguel Dev" class="btn primary">
+          <i class='bx bx-download'></i> Download CV
+        </a>
+      </div>
+    </section>
+
+    <!-- SKILLS -->
+<section id="skills" class="skills">
+  <div class="section-title">
+    <p class="section-tag">Skills</p>
+    <h2>Tecnologias e ferramentas que fazem parte da minha jornada</h2>
+  </div>
+
+  <div class="skills-wrapper">
+    <div class="skills-block">
+      <h3>Tecnologias</h3>
+      <div class="skills-grid">
+        <article class="skill-card">
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" alt="HTML" loading="lazy" />
+          <p>HTML</p>
+        </article>
+        <article class="skill-card">
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" alt="CSS" loading="lazy" />
+          <p>CSS</p>
+        </article>
+        <article class="skill-card">
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" alt="JavaScript" loading="lazy" />
+          <p>JavaScript</p>
+        </article>
+        <article class="skill-card">
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" alt="React.js" loading="lazy" />
+          <p>React.js</p>
+        </article>
+        <article class="skill-card">
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" alt="Node.js" loading="lazy" />
+          <p>Node.js</p>
+        </article>
+        <article class="skill-card">
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" alt="Python" loading="lazy" />
+          <p>Python</p>
+        </article>
+        <article class="skill-card">
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" alt="SQL" loading="lazy" />
+          <p>SQL</p>
+        </article>
+        <article class="skill-card">
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" alt="Git" loading="lazy" />
+          <p>Git</p>
+        </article>
+      </div>
+    </div>
+
+    <div class="skills-block">
+      <h3>Ferramentas</h3>
+      <div class="skills-grid tools-grid">
+        <article class="skill-card">
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" alt="GitHub" loading="lazy" />
+          <p>GitHub</p>
+        </article>
+        <article class="skill-card">
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg" alt="VSCode" loading="lazy" />
+          <p>VSCode</p>
+        </article>
+        <article class="skill-card">
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg" alt="Figma" loading="lazy" />
+          <p>Figma</p>
+        </article>
+        <article class="skill-card">
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/notion/notion-original.svg" alt="Notion" loading="lazy" />
+          <p>Notion</p>
+        </article>
+      </div>
+    </div>
+  </div>
+</section>
+
+    <!-- PROJETOS -->
+    <section id="projects" class="projects">
+      <div class="section-title">
+        <p class="section-tag">Projetos</p>
+        <h2>Projetos que mostram minha evolução em web e IA</h2>
+      </div>
+
+      <div class="projects-grid">
+        <article class="project-card">
+          <img src="./img/login-land-rover.png" alt="Projeto de tela de login" loading="lazy" />
+          <div class="project-content">
+            <span class="project-badge">HTML & CSS</span>
+            <h3>Tela de Login</h3>
+            <p>Projeto focado em layout moderno, organização visual e refinamento de interface.</p>
+            <div class="project-links">
+              <a href="#" target="_blank"><i class='bx bx-link-external'></i> Preview</a>
+              <a href="#" target="_blank"><i class='bx bxl-github'></i> GitHub</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="project-card">
+          <img src="./img/cronometro.png" alt="Projeto de relógio digital" loading="lazy" />
+          <div class="project-content">
+            <span class="project-badge">JavaScript</span>
+            <h3>Relógio Digital</h3>
+            <p>Aplicação para praticar lógica, manipulação do DOM e interatividade com JS.</p>
+            <div class="project-links">
+              <a href="#" target="_blank"><i class='bx bx-link-external'></i> Preview</a>
+              <a href="#" target="_blank"><i class='bx bxl-github'></i> GitHub</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="project-card">
+          <img src="./img/form.png" alt="Projeto de formulário de avaliação" loading="lazy" />
+          <div class="project-content">
+            <span class="project-badge">Formulários</span>
+            <h3>Formulário de Avaliação</h3>
+            <p>Projeto voltado para estrutura de formulário, UX e organização de campos.</p>
+            <div class="project-links">
+              <a href="#" target="_blank"><i class='bx bx-link-external'></i> Preview</a>
+              <a href="#" target="_blank"><i class='bx bxl-github'></i> GitHub</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="project-card featured">
+          <div class="project-content">
+            <span class="project-badge ai">IA</span>
+            <h3>Próximo projeto com IA</h3>
+            <p>Espaço reservado para um assistente, automação ou ferramenta inteligente feita por mim.</p>
+            <div class="project-links">
+              <a href="#contact"><i class='bx bx-chat'></i> Vamos conversar</a>
+            </div>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- CONTATO -->
+    <section class="contact" id="contact">
+      <div class="section-title">
+        <p class="section-tag">Contato</p>
+        <h2>Vamos criar algo legal juntos</h2>
+      </div>
+
+      <div class="contact-wrapper">
+        <div class="contact-info">
+          <h3>Aberto para aprender, colaborar e construir projetos</h3>
+          <p>Se você quer trocar ideia sobre desenvolvimento web, IA, projetos ou oportunidades, pode me chamar por aqui.</p>
+          <div class="contact-list">
+            <span><i class='bx bx-user'></i> Miguel Dev</span>
+            <span><i class='bx bx-code-alt'></i> Web + IA</span>
+            <span><i class='bx bx-map'></i> Brasil</span>
+          </div>
+        </div>
+
+        <div class="contact-form">
+          <form id="contactForm" action="https://formsubmit.co/miguelmaciel1235@gmail.com" method="POST">
+            <input type="text" name="name" placeholder="Digite seu nome" required />
+            <input type="email" name="email" placeholder="Digite seu melhor e-mail" required />
+            <input type="hidden" name="_captcha" value="false" />
+            <textarea name="text" rows="8" placeholder="Como eu posso te ajudar?" required></textarea>
+            <input type="submit" value="Enviar mensagem" class="btn primary submit" />
+          </form>
+          <div id="thankYouMessage" class="thank-you-message">
+            <i class='bx bx-check-circle'></i> Obrigado! Sua mensagem foi enviada.
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="end">
+    <p>by <strong>Miguel Dev</strong> • Alguns direitos reservados.</p>
+    <div class="top">
+      <a href="#home" aria-label="Voltar ao topo">
+        <i class='bx bx-up-arrow-alt'></i>
+      </a>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
